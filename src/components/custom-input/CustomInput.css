@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Secular+One&family=Sigmar&family=Yeseva+One&display=swap');
+@import '../../assets/styles/variables.css';
+
+
+.custom-input{
+    width: 630px;
+    height: 48px;
+    padding: 16px 24px;
+    font-size: 20px;
+    border-radius: 12px;
+    border-width: 1px;
+}

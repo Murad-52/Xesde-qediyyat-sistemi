@@ -1,0 +1,85 @@
+.patient-profile-section {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.profile-heading {
+    color: #343a40;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.profile-label {
+    font-weight: 500;
+    color: #495057;
+    text-align: left;
+}
+
+.profile-input,
+.profile-input-readonly {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+}
+
+.profile-input-readonly {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.profile-image-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.profile-image-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    width: 100%;
+    max-width: 250px;
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.profile-action-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.record-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.save-changes-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 8px 25px;
+    font-size: 1.1rem;
+    border-radius: 0.25rem;
+}
+
+.save-changes-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

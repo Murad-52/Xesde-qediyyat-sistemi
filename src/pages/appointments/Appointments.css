@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Secular+One&family=Sigmar&family=Yeseva+One&display=swap');
+
+.appointments-page-section {
+    padding: 60px 0;
+    background-color: #f8f9fa; /* Açıq boz fon */
+    min-height: calc(100vh - 120px); /* Footer və Header üçün yer saxlayaraq minimum hündürlük */
+    font-family: Lato;
+}
+
+.appointments-heading {
+    color: #343a40;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.appointment-card-row {
+    margin-bottom: 20px;
+}
+
+.appointment-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.appointment-card:hover {
+    transform: translateY(-3px);
+}
+
+.doctor-image-container {
+    width: 90px; /* Şəkil ölçüsü */
+    height: 90px;
+    flex-shrink: 0;
+}
+
+.doctor-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid #0A97B0; /* Mavi çərçivə */
+}
+
+.appointment-details {
+    margin-left: 20px;
+}
+
+.appointment-details .doctor-name {
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.appointment-details .doctor-specialty {
+    color: #0A97B0;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.appointment-details .doctor-hospital {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.hospital-icon {
+    color: #0A97B0;
+    font-size: 0.85rem;
+}
+
+.appointment-time-info {
+    margin-left: auto; /* Saat məlumatlarını sağa itələmək üçün */
+    text-align: right;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.appointment-time-info p {
+    margin-bottom: 0;
+}
+
+.appointment-date {
+    font-size: 1rem;
+}
+
+.appointment-time {
+    font-size: 1.1rem;
+    color: #0A97B0;
+}
+
+.appointment-actions {
+    margin-left: 20px;
+    flex-shrink: 0; /* Düymələrin kiçilməsinin qarşısını al */
+}
+
+.edit-button,
+.delete-button {
+    padding: 8px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* Responsive dəyişikliklər */
+@media (max-width: 768px) {
+    .appointment-card {
+        flex-wrap: wrap; /* Kiçik ekranlarda bükülmək */
+        justify-content: center;
+        text-align: center;
+    }
+
+    .doctor-image-container {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .appointment-details {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .appointment-time-info {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .appointment-actions {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .edit-button,
+    .delete-button {
+        flex: 1; /* Düymələrin enini paylamaq */
+        max-width: 120px; /* Maksimum en */
+    }
+}

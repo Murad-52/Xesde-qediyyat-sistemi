@@ -1,0 +1,20 @@
+:root{
+    --primary-color :  rgba(4, 64, 75, 0.65);
+    --secondary-color:  #A2C1C9;
+    --background-color-1: #E1F7FC ;
+    --background-color-2: #E3F7FC;
+    --background-color-3: #FFF ;
+    --text-color: #FFF ;
+    --statistic-color: #0A97B0;
+    --border-color:  #076C7D;
+    --button-input-color: #076C7D;
+    --button-color-2: #04404B;
+    --button-input-hover-color: #248b8691;
+    --heading-color: #04404B;
+    --heading-color-2: #172A55;
+    --link-color:  #0061F2;
+    --link-color-2: #777;
+    --option-color-not-selected: #777 ;
+    --option-color-selected: #000;
+
+}

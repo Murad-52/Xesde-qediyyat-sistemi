@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Secular+One&family=Sigmar&family=Yeseva+One&display=swap');
+@import '../../../assets/styles/variables.css';
+
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.about-heading{
+    color: var(--heading-color-2);
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+.about-description{
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+}
+.about-paragraph{
+   font-family: Lato;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 150%;
+}
+.about-div{
+    height: 525px;
+    border-radius: 24px;
+    padding: 50px;
+    background: linear-gradient(180.81deg, rgba(253, 253, 253, 0.7) 2.34%, rgba(47, 123, 136, 0.4) 60%), url(../../../assets//images/homepage/about/3118bfc0cee7d45a389e3c0e700aa8de8a30e91a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

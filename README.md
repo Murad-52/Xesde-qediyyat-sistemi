@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏥 Xəstə Qeydiyyat Sistemi
 
 Bu layihə xəstəxana və klinikalar üçün nəzərdə tutulmuş xəstə qeydiyyat və izləmə sistemidir. Sistem istifadəçilərin qeydiyyatı, məlumatların idarə olunması və təhlükəsizlik prinsiplərinə əsaslanaraq hazırlanır.
@@ -53,3 +54,4 @@ xeste-qeydiyyat-sistemi/
 ├── README.md
 ├── .gitignore
 └── LICENSE
+=======
