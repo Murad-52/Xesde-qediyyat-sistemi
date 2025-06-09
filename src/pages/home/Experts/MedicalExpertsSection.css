@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Secular+One&family=Sigmar&family=Yeseva+One&display=swap');
+@import '../../../assets/styles/variables.css';
+
+
+.dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 33px;
+  
+  background-color: #fff;
+  border: 1px solid var(--button-color-2);
+  cursor: pointer;
+}
+.dot.active {
+  background-color: var(--button-color-2);
+}
+.expert-card img {
+  width: 413px;
+  height: 290px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit:contain;
+}
+.expert-card h5{
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--heading-color);
+}
+.expert-card p{
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #333333;  
+}
+.experts-heading{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--heading-color-2);
+}
+.experts-description{
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    
+}

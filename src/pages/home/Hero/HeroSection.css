@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Secular+One&family=Sigmar&family=Yeseva+One&display=swap');
+@import '../../../assets/styles/variables.css';
+
+
+.container{
+    
+    padding: 56px 80px;
+}
+.hero-container{
+    height: calc(100vh - 170px);
+}
+.hero-heading{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 87px;
+    letter-spacing: 0px;
+}
+.hero-paragraph{
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0px;
+}
+button.hero-contact-btn{
+    width: 146;
+    height: 48;
+    background-color: var(--button-input-color);
+}
+button.hero-contact-btn:hover{
+   background-color: var(--button-color-2);
+}
+.hero-relative-div{
+    width: 620px;
+    height: 501px;
+
+}
+.heroImg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.heroImg2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

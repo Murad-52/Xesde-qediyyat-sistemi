@@ -1,0 +1,34 @@
+@import '../../assets/styles/variables.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+.register-left{
+
+    background: linear-gradient(180deg, rgba(255, 252, 252, 0) 0%, rgba(4, 64, 75, 0.5)  0.01%), url(../../assets/images/registerpage/0f8567c7c7827170cf99d466a7f19855344e9a01.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--text-color);
+}
+
+
+
+.heading{
+    color: var(--heading-color);
+}
+button.signInButton{
+    border-color: white;
+    background-color: transparent;
+}
+button.signInButton:hover{
+    background-color: var( --button-input-hover-color);
+}
+button.signInButton:focus{
+    border-color: white !important;
+    background-color: transparent!important;
+}
