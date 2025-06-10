@@ -6,7 +6,7 @@ import CustomButton from '../components/button/CustomButton';
 import { Input, InputGroup, InputGroupText } from 'reactstrap';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import '../assets/styles/variables.css';
-import Instance from '../api/instance';
+import Instance from '../api/Instance';
 
 
 const RegisterForm = () => {

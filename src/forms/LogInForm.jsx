@@ -7,7 +7,7 @@ import { Input, InputGroup, InputGroupText } from 'reactstrap';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import '../assets/styles/variables.css';
 import ResetPasswordModal from '../components/modals/ResetPasswordModal';
-import Instance from '../api/instance';
+import Instance from '../api/Instance';
 
 
 const LogInForm = () => {
