@@ -7,7 +7,7 @@ import placeholderImage from '../../assets/images/placeholderImage.jpg';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import './index.css'; 
-import Instance from '../../api/instance';
+import Instance from '../../api/Instance';
 
 const Profile = () => {
     const [profileImage, setProfileImage] = useState(placeholderImage);
