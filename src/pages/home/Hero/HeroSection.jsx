@@ -25,8 +25,12 @@ const HeroSection = () => {
             </Col>
             
              <Col md={6} className='hero-relative-div' style={{position: 'relative'}}>
-              <img src={heroImg2} className='heroImg1' style={{width: '300px',height: '450px',borderRadius: '56px'}} alt="" />
-              <img src={heroImg1} className='heroImg2' style={{width: '300px',height: '450px',borderRadius: '56px'}} alt="" />
+              <div >
+                <div><img src={heroImg2} className='heroImg1' style={{width: '300px',height: '450px',borderRadius: '56px'}} alt="" /></div> 
+                <div><img src={heroImg1} className='heroImg2' style={{width: '300px',height: '450px',borderRadius: '56px'}} alt="" /></div>
+              </div>
+              
+              
             </Col>
         </Row>
     </Container>

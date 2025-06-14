@@ -12,6 +12,13 @@ import Hospitals from './pages/hospitals/Hospitals';
 import ContactUs from './pages/contact/ContactUs';
 import Appointments from './pages/appointments/Appointments';
 import ChangePassword from './pages/change-password/ChangePassword';
+import AdminDashBoard from './pages/admin/AdminDashBoard';
+import HospitalInfo from './pages/hospitals/HospitalInfo';
+import MedicalRecords from './pages/medical-records/MedicalRecords';
+import PatientsPage from './pages/admin/PatientsPage';
+import DoctorsPage from './pages/admin/DoctorsPage';
+import AppointmentsAdmin from './pages/admin/AppointmensAdmin';
+import SettingsAdmin from './pages/admin/SettingsAdmin';
 
 function App() {
   return (
@@ -28,6 +35,15 @@ function App() {
         <Route path='/contactUs' element={<ContactUs/>}/>
         <Route path='/appointments' element={<Appointments/>}/>
         <Route path='/change-password' element={<ChangePassword/>}/>
+        <Route path='/hospitals/:id' element={<HospitalInfo/>}/>
+        <Route path='/records' element={<MedicalRecords/>}/>
+
+
+        <Route path='/admin-dashboard' element={<AdminDashBoard/>}/>
+        <Route path='/admin/patients' element={<PatientsPage/>}/>
+        <Route path='/admin/doctors' element={<DoctorsPage/>}/>
+        <Route path='/admin/appointments' element={<AppointmentsAdmin/>}/>
+        <Route path='/admin/settings' element={<SettingsAdmin/>}/>
       </Routes>
     </>
   );

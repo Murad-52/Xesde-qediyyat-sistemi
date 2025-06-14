@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Secular+One&family=Sigmar&family=Yeseva+One&display=swap');
+
+*{
+    font-family: Lato;
+}
+
+.form-label{
+    font-family: Lato;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.medical-records-heading{
+    font-family: Lato;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: 0px;
+
+}
+.section-title{
+font-family: Lato;
+font-weight: 600;
+font-size: 24px;
+line-height: 72px;
+letter-spacing: 0px;
+
+}
+.treatment-plan-card{
+    width: 555px;
+    border-radius: 35px;
+
+    background-color: #551f1f;
+    
+}

@@ -129,7 +129,7 @@ const Doctors = () => {
                                                 <div className="doctor-rating">
                                                     {renderStars(doctor.rating)}
                                                 </div>
-                                                <Button color="info" className="book-clinic-button">
+                                                <Button  className="book-clinic-button">
                                                     Book Clinic Visit
                                                 </Button>
                                             </div>

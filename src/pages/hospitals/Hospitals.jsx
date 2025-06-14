@@ -132,7 +132,7 @@ const Hospitals = () => {
                                                     {renderStars(hospital.rating)}
                                                 </div>
                                                 <Link to={`/hospitals/${hospital.id}`}>
-                                                    <Button color="info" className="more-info">
+                                                    <Button className="more-info">
                                                     More info
                                                 </Button>
                                                 </Link>
