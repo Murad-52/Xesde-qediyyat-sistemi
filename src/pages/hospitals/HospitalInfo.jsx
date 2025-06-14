@@ -8,7 +8,7 @@ import docNigar from '../../assets/images/homepage/medicalExpertsSecton/5a52c8ad
 import docElvin from '../../assets/images/homepage/medicalExpertsSecton/c9f779434fe0b7ec0ed37f3828ae44a59b3f10a5.jpg'
 import docLeyla from '../../assets/images/homepage/medicalExpertsSecton/9a2d2477d4e6d99afd0bfdfaa87b7db6bb9be2db.jpg'
 
-import './hospitalInfo.css'; 
+import './HospitalInfo.css'; 
 
 const HospitalInfo = () => {
     const [hospitalData, setHospitalData] = useState(null);
